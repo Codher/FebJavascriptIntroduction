@@ -21,6 +21,7 @@ Throughout the workshop we will work with the jQuery get and post functions, as 
 - A big part of programming is collaborating with other people.
 - Once you're done with the exercises, find a couple team mates and choose a small project you can do together.
 - Try making your own html and css (or reuse the one in /common) and get data from any API of your liking.
+- _Bonus:_ Create your own github repository (you'll need an account) and show it at the end of the workshop :)
 
 ##License
 The MIT License (MIT)
