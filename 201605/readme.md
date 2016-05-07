@@ -9,13 +9,18 @@ For each one of these packages, follow the instructions on their packages
 - **Atom-live-server**: Launches a simple development server with livereload capabilities https://atom.io/packages/atom-live-server
 
 ## Slides
-// WIP
+[Find the slides here]https://docs.google.com/presentation/d/1XO_1_z9Ea2oAKu9kf8fcXo5RnlUrTUrN8UgPaOV7etw/edit?usp=sharing
 
 ## Documentation
 Throughout the workshop we will work with the jQuery get and post functions, as well as several different APIs
 - **jQuery.get** https://api.jquery.com/jquery.get/
 - **jQuery.post** https://api.jquery.com/jquery.post/
 - **ProgramableWeb** Helpful site for finding public APIs http://www.programmableweb.com/
+
+## Challenge
+- A big part of programming is collaborating with other people.
+- Once you're done with the exercises, find a couple team mates and choose a small project you can do together.
+- Try making your own html and css (or reuse the one in /common) and get data from any API of your liking.
 
 ##License
 The MIT License (MIT)
