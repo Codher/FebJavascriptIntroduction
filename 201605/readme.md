@@ -9,7 +9,7 @@ For each one of these packages, follow the instructions on their packages
 - **Atom-live-server**: Launches a simple development server with livereload capabilities https://atom.io/packages/atom-live-server
 
 ## Slides
-[Find the slides here]https://docs.google.com/presentation/d/1XO_1_z9Ea2oAKu9kf8fcXo5RnlUrTUrN8UgPaOV7etw/edit?usp=sharing
+[Find the slides here](https://docs.google.com/presentation/d/1XO_1_z9Ea2oAKu9kf8fcXo5RnlUrTUrN8UgPaOV7etw/edit?usp=sharing)
 
 ## Documentation
 Throughout the workshop we will work with the jQuery get and post functions, as well as several different APIs
