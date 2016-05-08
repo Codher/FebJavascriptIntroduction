@@ -2,9 +2,8 @@ function fetchTweets() {
   $.get("https://twither.herokuapp.com/tweets")
   .done(function(data) {
     $('.tweets').html('');
-    var tweets = JSON.parse(data);
-    for (var key in tweets) {
-      var item = tweets[key];
+    for (var key in data) {
+      var item = data[key];
       var tweet = $('<div/>').addClass('tweet');
       var date = new Date(item.timestamp);
       tweet.append($('<div/>').addClass('date').text(date.toUTCString()));
