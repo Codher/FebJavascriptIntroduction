@@ -6,8 +6,9 @@ function fetchTweets() {
       var item = data[key];
       var tweet = $('<div/>').addClass('tweet');
       var date = new Date(item.timestamp);
+      var content = sanitize(item.content);
       tweet.append($('<div/>').addClass('date').text(date.toUTCString()));
-      tweet.append($('<div/>').addClass('content').text(item.content));
+      tweet.append($('<div/>').addClass('content').html(content));
       tweet.append($('<div/>').addClass('author').text('-' + item.author));
       $('.tweets').prepend(tweet);
     }
@@ -15,6 +16,16 @@ function fetchTweets() {
   .fail(function(xhr, status, err) {
     console.error(err);
   });
+}
+
+function sanitize(string) {
+  var re = /<script>/;
+  if(re.test(string)) {
+    return "For safety reasons, we can't show this tweet. Naughty naughty.";
+  } else {
+    return string;
+  }
+
 }
 
 
