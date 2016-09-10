@@ -1,0 +1,8 @@
+.happy {
+  animation: bounce 0.2s infinite;
+}
+
+@keyframes bounce {
+  from { transform: translateY(0); }
+  to   { transform: translateY(5px); }
+}

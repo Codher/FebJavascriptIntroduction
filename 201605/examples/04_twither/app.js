@@ -4,7 +4,7 @@ function fetchTweets() {
     $('.tweets').html('');
     for (var key in data) {
       var item = data[key];
-      var tweet = $('<div/>').addClass('tweet');
+      var tweet = $('<div/>').addClass('tweet').addClass(item.sentiment);
       var date = new Date(item.timestamp);
       var content = sanitize(item.content);
       tweet.append($('<div/>').addClass('date').text(date.toUTCString()));
