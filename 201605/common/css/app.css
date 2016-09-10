@@ -155,6 +155,19 @@ form input[type=number] {
   width: 100%;
 }
 
+.tweet-form {
+  width: 400px;
+
+}
+
+.tweet-form input,
+.tweet-form textarea,
+.tweet-form select {
+  width: 100%;
+  clear: both;
+  margin-bottom: 12px;
+}
+
 .tweet {
   width: 400px;
   /*margin: 12px auto;*/

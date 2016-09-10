@@ -31,4 +31,13 @@ function sanitize(string) {
 
 $(document).ready(function() {
   window.setInterval(fetchTweets, 5000);
+  // Send a tweet
+  $('.tweet-form').submit(function(e) {
+    e.preventDefault();
+    $.post('https://twither.herokuapp.com/tweets', {
+      author: $('.tweet-form .tweet-author').val(),
+      content: $('.tweet-form .tweet-content').val(),
+      sentiment: $('.tweet-form .tweet-sentiment').val(),
+    });
+  });
 });
